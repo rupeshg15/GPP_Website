@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us | GPP</title>
+    <link rel="icon" href="Images/logo.png" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="Images/logo.png" /></a>
+        <h1>Government Polytechnic Pune</h1>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="courses.html">COURSES</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>About Us</h1>
+    </section>
+
+    <!-- About Us Content -->
+
+    <div class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>Government Polytechnic, Pune</h1>
+          <p>
+            The Government Polytechnic, Pune is one of the prominent institutes
+            among polytechnics in Maharashtra. The institute was established in
+            the year 1957, under the academic control of Maharashtra State Board
+            of Technical Education, Maharashtra State. The institute was awarded
+            academic autonomy in May 1994. In early 1960s institute acquired
+            current land and constructed its own infrastructure. Today it houses
+            in its 28-acre campus, a main building, student hostels, classrooms
+            for various courses, laboratories, library, canteen, post office,
+            auditorium, and many more facilities. Entire campus is equipped with
+            internet facility and secured connection. Over the last four
+            decades, more than 8000 diploma engineers from various disciplines
+            are passed out. The institute has won several awards in academics as
+            well as in socio-cultural activities and on the whole has succeeded
+            in contributing humble positive efforts towards the building of a
+            progressive society. <br />
+            <br />
+            The institute runs regular diploma programmes as: <br />
+            1. Diploma Computer Science <br />
+            2. Diploma Information Technology <br />
+            3. Diploma in Civil Engineering <br />
+            4. Diploma in Electrical Engineering <br />
+            5. Diploma in Electronics Engineering <br />
+            6. Diploma in Metallurgical Engineering<br />
+            7. Diploma in Mechanical Engineering <br />
+            8. Diploma in Dress Designing and Manufacturing <br />
+            <br />
+            Institute also runs courses:<br />
+            1. Advanced Diploma in Automotive <br />
+            2. Mechatronics Yamaha training school (Affiliated to ASDC, New
+            Delhi)
+          </p>
+          <h1>Awards received by the institute:</h1>
+          <p>
+            <ul>
+                <li>
+                    'Best Polytechnic Award - 1998-99' by Government of Maharashtra for consistent excellent performance in technical education.
+                </li>
+                <li>ISTE - Narsee Monji - Best Overall Performance - 2007-08</li>
+                <li>Government Polytechnic Pune received Best Polytechnic Award of ISTE (Maharashtra and Goa section) on 05th January, 2019 for outstanding contribution in the field of engineering</li>
+                <li>'Nation Builder Award' for prolonged and dedicated services in the field of education from Uttar Bhartiya Sangh, Pune and Rotary Club Riverside jointly received by faculties of Government Polytechnic Pune consecutively from 2016 to 2018.</li>
+            </ul> 
+          </p>
+        </div>
+        <div class="about-col">
+          <img src="Images/about img.jpeg" />
+        </div>
+      </div>
+    </div>
+
+    <footer>
+        <div class="row">
+          <div class="foot-col">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#">Faculties</a></li>
+              <li><a href="#">Departments</a></li>
+              <li><a href="#">Centres</a></li>
+              <li><a href="#">Facilities</a></li>
+              <li><a href="#">Notices</a></li>
+              <li><a href="#">UMS</a></li>
+            </ul>
+          </div>
+  
+          <div class="foot-col">
+            <h3>Explore</h3>
+            <ul>
+              <li><a href="#">Central Computer Centre</a></li>
+              <li><a href="#">Campus Life</a></li>
+              <li><a href="#">University Newsletter</a></li>
+              <li><a href="#">Educational Programmes</a></li>
+              <li><a href="#">Social Initiatives</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+  
+          <div class="foot-col">
+            <h3>Social Media</h3>
+            <ul>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-youtube"></i> Youtube</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-twitter"></i> Twitter</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+    <!-- JS for Toggle menu -->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

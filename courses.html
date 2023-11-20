@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Courses | GPP</title>
+    <link rel="icon" href="Images/logo.png" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="Images/logo.png" /></a>
+        <h1>Government Polytechnic Pune</h1>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="courses.html">COURSES</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>Courses Offered</h1>
+    </section>
+
+    <section class="course">
+      <h1>Courses Offered</h1>
+      <p>
+        The courses are offered in the streams of Engineering and Architecture,
+        Management and Business administration, Science, Arts, Humanity and
+        social sciences.
+      </p>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>Vision</h3>
+          <p>
+            To develop self-reliant, versatile, innovative, quality conscious
+            engineers for betterment of society.
+          </p>
+          <h3>Mission</h3>
+          <p>
+            1. Imparting updated curriculum in association with stakeholders. 2.
+            Providing with the state of art infrastructure & facilities. 3. Set
+            up strategic alliance with industries. 4. Enhancing e-governance. 5.
+            Continuous development of faculty & staff.
+          </p>
+        </div>
+
+        <div class="course-col">
+          <h3>Postgraduate Programmes</h3>
+          <p>
+            At the Post-Graduate(M.Tech.) level GPP has the following programs:
+          </p>
+          <p>
+            1. Diploma Computer Science <br />
+            2. Diploma Information Technology <br />
+            3. Diploma in Civil Engineering <br />
+            4. Diploma in Electrical Engineering
+            <br />
+            5. Diploma in Electronics Engineering <br />
+            6. Diploma in Metallurgical Engineering<br />
+            7. Diploma in Mechanical Engineering <br />
+            8. Diploma in Dress Designing and Manufacturing <br />
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="row">
+        <div class="foot-col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Faculties</a></li>
+            <li><a href="#">Departments</a></li>
+            <li><a href="#">Centres</a></li>
+            <li><a href="#">Facilities</a></li>
+            <li><a href="#">Notices</a></li>
+            <li><a href="#">UMS</a></li>
+          </ul>
+        </div>
+
+        <div class="foot-col">
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="#">Central Computer Centre</a></li>
+            <li><a href="#">Campus Life</a></li>
+            <li><a href="#">University Newsletter</a></li>
+            <li><a href="#">Educational Programmes</a></li>
+            <li><a href="#">Social Initiatives</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="foot-col">
+          <h3>Social Media</h3>
+          <ul>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-youtube"></i> Youtube</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i> Twitter</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JS for Toggle menu -->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
